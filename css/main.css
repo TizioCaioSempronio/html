@@ -1,0 +1,52 @@
+.container-fluid {padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;}
+
+	.h4, h4 {
+		font-size: 48px;
+		font-family: arial;
+		text-align: center;
+		color: #1E90FF;}
+
+		.jumbotron	{background-color: #E6E6FA;
+			background: url("../images/sfondo5.jpg");
+			min-height: 1800px;
+			margin-bottom: 0px;}
+			
+			.jumbotron .h1, .jumbotron h1 
+			{text-align: center;
+				color: #1E90FF;
+				font-family: arial;
+				font-size: 80px;
+				margin-top: 50px;}
+				
+
+				.navbar {background-color: #87CEEB;
+					position: relative;
+					min-height: 50px;
+					margin-bottom: 20px;
+					border: 1px solid transparent;}	
+
+					.navbar-brand	{background: url(../images/logo2.png) no-repeat;
+						height: 120px;
+						width: 170px;
+					}
+					.navbar-default .navbar-nav>li>a {font-family: arial;
+						color: #fff;
+						font-size: 24px;
+						text-align: justify;
+					}
+
+
+
+					@media (max-width: 750px) {
+						.navbar-default .navbar-collapse  
+						{background-color: rgba(0, 0, 0, 0.2);
+							border-color: transparent;
+						}
+
+						.navbar-default .navbar-form {
+							border-color: transparent;}
+
